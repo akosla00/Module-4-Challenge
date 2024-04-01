@@ -1,0 +1,51 @@
+:root {
+    --light-background: #ffffff;
+    --light-color: #000000;
+    --dark-background: #1a1a1a;
+    --dark-color: #d9e9e8;
+}
+
+body {
+    background-color: var(--light-background);
+    color: var(--light-color);
+    font-family: Helvetica, sans-serif;
+}
+
+body.dark-mode {
+    background-color: var(--dark-background);
+    color: var(--dark-color);
+}
+
+#back-btn {
+    border-style: solid;
+    width: 150px;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 5%;
+
+}
+
+.blog-title {
+    border-bottom-style: solid;
+}
+
+#theme-toggle {
+    margin-bottom: 10px;
+}
+
+#socials {
+    border-top-style: solid;
+}
+
+.blog-post {
+    border-style: solid;
+    margin: 5px;
+    padding: 5px;
+}

@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-size: larger;
+    font-family: Helvetica, sans-serif;
+}
+
+.blog-title {
+    border-bottom-style: solid;
+    padding: 2%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#username {
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#title {
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#content {
+    width: 25%;
+    height: 100px;
+
+
+}
+
+#btn {
+    margin: 20px;
+}
