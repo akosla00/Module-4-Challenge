@@ -3,6 +3,7 @@ const title = document.getElementById("title");
 const content = document.getElementById("content");
 const btn = document.getElementById("btn");
 
+//pushes inputs from form to local storage array
 btn.addEventListener('click', function (event) {
     event.preventDefault();
 

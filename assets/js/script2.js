@@ -2,7 +2,7 @@ const backBtn = document.getElementById("back-btn");
 const themeToggle = document.getElementById("theme-toggle");
 const rootEl = document.getElementById("root");
 
-
+//back button to go to previous page
 backBtn.addEventListener('click', function (event) {
     event.preventDefault();
 
@@ -11,6 +11,7 @@ backBtn.addEventListener('click', function (event) {
 
 isToggled = false;
 
+//button to switch between light mode/dark mode
 themeToggle.addEventListener('click', function () {
     document.body.classList.toggle('dark-mode');
     isToggled = !isToggled;
@@ -22,6 +23,7 @@ themeToggle.addEventListener('click', function () {
 
 });
 
+//puts blog posts onto main
 function renderBlogPost() {
     const blogPosts = JSON.parse(localStorage.getItem('blogPosts'));
     blogPosts.forEach(function (blogPost) {
@@ -37,7 +39,6 @@ function renderBlogPost() {
         blogPostEl.appendChild(usernameEl);
         blogPostEl.classList.add("blog-post");
         rootEl.appendChild(blogPostEl);
-        console.log(this);
     })
 
 
