@@ -34,7 +34,7 @@ btn.addEventListener('click', function (event) {
 
         localStorage.setItem("blogPosts", JSON.stringify(blogPostArray));
 
-        window.location.href= "index2.html";
+        window.location.href = "../../index2.html";
     }
 
 });
