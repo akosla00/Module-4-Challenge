@@ -6,7 +6,7 @@ const rootEl = document.getElementById("root");
 backBtn.addEventListener('click', function (event) {
     event.preventDefault();
 
-    window.location.replace("./index.html");
+    window.location.href = "./index.html";
 });
 
 isToggled = false;
